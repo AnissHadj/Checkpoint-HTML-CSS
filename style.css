@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+nav {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 25px;
+}
+a {
+  margin-right: 70px;
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-image: url(ocean.jpg);
+  background-size: cover;
+}
+nav button {
+  background: none;
+  border: 1px solid #69eed3;
+  border-radius: 20%;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+.text {
+  text-align: center;
+  margin-top: 500px;
+  font-size: 30px;
+  color: white;
+}
+.search input {
+  background: none;
+  width: 600px;
+  border: none;
+  border-bottom: 2px solid #69eed3;
+}
+::placeholder {
+  font-size: 18px;
+  color: white;
+}
+.search button {
+  padding: 20px;
+  background-color: #69eed3;
+  border-radius: 30%;
+  border: #69eed3;
+}
